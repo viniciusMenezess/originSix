@@ -55,6 +55,13 @@ body {
   -webkit-font-smoothing: auto;
 }
 
+.title1 {
+  margin-left: 1.5rem;
+  font: 700 var(--title-font-size) 'Poppins', sans-serif;
+  color: var(--title-color);
+  -webkit-font-smoothing: auto;
+}
+
 .button {
   background-color: var(--base-color);
   color: var(--text-color-light);
@@ -361,9 +368,10 @@ nav.show div.icon-close {
 }
 
 #testimonials .container {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  position: relative;
+  overflow: hidden;
 }
 
 #testimonials header {
@@ -413,6 +421,11 @@ nav.show div.icon-close {
 .swiper-slide {
   height: auto;
   padding: 4rem 1rem;
+}
+
+.swiper-pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
 }
 
 .swiper-pagination-bullet-active {
